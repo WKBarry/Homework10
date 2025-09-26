@@ -7,6 +7,7 @@ def decimal_to_binary_manual(n):
         remainder = n % 2
         binary = str(remainder) + binary
         n = n // 2
-    return binar
+    return binary
 binarynumber = decimal_to_binary_manual(decimalnumber)
 print("Binary number is: ",binarynumber)
+
